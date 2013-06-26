@@ -75,7 +75,7 @@ var ascoltatori = require('ascoltatori');
 ascoltatori.build(function (ascoltatore) {
 
   ascolatore.subscribe("hello/+", function() {
-    // this will print { '0': "hello/world/42", '1': "a message" }
+    // this will print { '0': "hello/42", '1': "a message" }
     console.log(arguments); 
   });
 
